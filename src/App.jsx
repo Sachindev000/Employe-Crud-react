@@ -10,6 +10,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />}></Route>
+          <Route path="/Employe-Crud-react" element={<Home />}></Route>
           <Route   path="/Add" element={<Add />}></Route>
           <Route path="/Edit" element={<Edit />}></Route>
         </Routes>
